@@ -19,7 +19,7 @@ jobs:
           dockerfile: Dockerfile
 
   build-and-test:
-    name: Build and smoke test image
+    name: Build and test image
     runs-on: ubuntu-latest
     env:
       IMAGE: univlibre-lille:ci
